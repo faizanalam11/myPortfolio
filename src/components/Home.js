@@ -14,7 +14,7 @@ const Home = () => {
       })
     return (
     <section id="home" className="flex bg-[#252525] px-2 py-1 m-1 justify-around items-center min-h-60 dark:bg-[#DDDDDD] duration-300">
-        <div className="flex flex-col gap-3 w-1/2">
+        <div className="flex flex-col gap-3 w-2/3">
             <p className="text-white text-2xl dark:text-black">I AM FAIZAN ALAM</p>
             <h1 className="text-white font-bold text-6xl"> <span className="dark:text-black">a</span> {" "}
                 <span className="text-[#FF4004] ">{text}</span>
@@ -33,7 +33,7 @@ const Home = () => {
                 </a>
             </div>
         </div>
-        <div className="">
+        <div className="w-1/3">
             <img src={myImage} alt="developersImage" className="h-40"/>
         </div>
     </section>
