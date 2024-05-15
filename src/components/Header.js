@@ -14,7 +14,7 @@ const Header = ({ theme, setTheme }) => {
     <div className="bg-[#252525] sticky top-0 border-b-2 z-50 border-black flex flex-col md:flex-row justify-between items-center mx-1 mb-1 p-2 font-titleFont dark:bg-[#DDDDDD] dark:border-[#E1F7F5] duration-300">
         <div>
             <div className="text-yellow-800 p-1 my-1">
-                <h1 className="font-bold text-[#E2482B] xl:text-2xl lg:text-xl md:text-lg sm:text-base text-sm font-serif">Faizan Alam</h1>
+                <h1 className="font-bold text-[#E2482B] xl:text-2xl lg:text-xl md:text-lg text-base font-serif">Faizan Alam</h1>
             </div>
         </div>
         <div className="flex justify-between items-center">
@@ -36,7 +36,7 @@ const Header = ({ theme, setTheme }) => {
                     }
                 </ul>
             </div>
-            <div className={"bg-black w-10 rounded-full p-1 m-1 cursor-pointer dark:bg-white"} onClick={() => {toggle_mode()}}>
+            <div className={"bg-black md:w-10 w-8 rounded-full p-1 m-1 cursor-pointer dark:bg-white"} onClick={() => {toggle_mode()}}>
                 <img src={theme == 'light' ? day : night} alt={theme == 'light' ? 'day' : 'night'}/>
             </div>
         </div>
