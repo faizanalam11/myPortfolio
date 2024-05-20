@@ -13,24 +13,24 @@ const Home = () => {
         delaySpeed: 2000,
       })
     return (
-    <section id="home" className="flex bg-[#252525] px-2 py-1 m-1 justify-center items-center min-h-60 dark:bg-[#DDDDDD] duration-300">
+    <section id="home" className="flex text-[#ECEEEF] bg-[rgb(31,31,31)] px-2 py-1 m-1 justify-center items-center min-h-60 dark:bg-[#DDDDDD] duration-300 dark:text-[rgb(31,31,31)]">
         <div className="flex justify-around w-5/6">
         <div className="flex flex-col gap-3 w-2/3">
-            <p className="text-white font-bold xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base dark:text-black">I AM FAIZAN ALAM</p>
-            <h1 className="text-white font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl"> <span className="dark:text-black">a</span> {" "}
-                <span className="text-[#FF4004] ">{text}</span>
+            <p className="font-bold xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base">I AM FAIZAN ALAM</p>
+            <h1 className="font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl"> <span className="">a</span> {" "}
+                <span className="text-[#91E0EE] dark:text-[#087E96]">{text}</span>
                 <Cursor
                     cursorBlinking = "false"
                     cursorStyle = "|"
-                    cursorColor="#FF4004"
+                    cursorColor="#91E0EE"
                 />
             </h1>
             <div className="flex flex-row gap-3 mt-2">
                 <a href={linkedIn}>
-                    <button className="bg-[#FF4004] p-1 rounded-md text-white font-semibold hover:bg-opacity-40">Contact Me</button>
+                    <button className="bg-[#91E0EE] dark:text-[#ECEEEF] dark:bg-[#087E96] text-[rgb(31,31,31)] p-1 rounded-md font-semibold hover:bg-opacity-40">Contact Me</button>
                 </a>
                 <a href={Resume}>
-                    <button className="bg-[#FF4004] p-1 rounded-md text-white font-semibold hover:bg-opacity-40">Resume</button>
+                    <button className="bg-[#91E0EE] dark:text-[#ECEEEF] dark:bg-[#087E96] text-[rgb(31,31,31)] p-1 rounded-md font-semibold hover:bg-opacity-40">Resume</button>
                 </a>
             </div>
         </div>

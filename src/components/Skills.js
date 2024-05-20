@@ -3,10 +3,11 @@ import { SiJavascript, SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
     return (
-        <section id="skills" className="flex flex-col justify-center bg-[#252525] m-1 p-2 min-h-60 gap-3 dark:bg-[#DDDDDD] duration-300">
+        <section id="skills" className="flex flex-col justify-center bg-[rgb(31,31,31)] m-1 p-2 min-h-60 gap-3 dark:bg-[#DDDDDD] duration-300">
             <div className="flex justify-center items-center">
-                <p className="font-bold text-[#DC4F25] text-xl font-titleFont">Skills</p>
+                <p className="font-bold text-[#91E0EE] dark:text-[#087E96] text-xl font-titleFont">Skills</p>
             </div>
+            <div className="w-5/6 m-auto flex">
             <div className="flex flex-wrap justify-evenly">
                 <span className="skillsIcon"> 
                     <p>C++</p>
@@ -32,6 +33,7 @@ const Skills = () => {
                 <span className="skillsIcon">
                     <p>DSA</p>
                 </span>
+            </div>
             </div>
         </section>
     );

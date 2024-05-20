@@ -3,13 +3,13 @@ import project2 from "../assets/images/project2.png";
 
 const Projects = () => {
     return (
-        <section id="projects" className="bg-[#252525] m-1 p-2 min-h-60 dark:bg-[#DDDDDD] duration-300">
+        <section id="projects" className="bg-[rgb(31,31,31)] dark:text-[rgb(31,31,31)] text-[#ECEEEF] m-1 p-2 min-h-60 dark:bg-[#DDDDDD] duration-300">
             <div className="mt-3">
-                    <p className="flex justify-center items-center font-bold text-[#DC4F25] text-xl font-titleFont">Projects</p>
+                    <p className="flex justify-center items-center font-bold text-[#91E0EE] dark:text-[#087E96] text-xl font-titleFont">Projects</p>
                 </div>
             <div className='w-5/6 flex flex-wrap justify-evenly items-center mx-auto'>
                 <a href="https://github.com/faizanalam11/helloReact">
-                    <div className="w-56 bg-[#0a0a0a] text-white my-2 mx-3 items-center justify-evenly rounded-lg hover:scale-105 p-1 duration-300 dark:bg-gray-200 dark:text-black">
+                    <div className="w-56 bg-[#0a0a0a] my-2 mx-3 items-center justify-evenly rounded-lg hover:scale-105 p-1 duration-300 dark:bg-gray-200">
                         <div className=' bg-cover'>
                             <img src={project1} alt="developersImage" className='w-full h-[150px]'/>
                         </div>
@@ -27,7 +27,7 @@ const Projects = () => {
                 </a>
 
                 <a href="https://github.com/faizanalam11/newsWebsite">
-                    <div className="w-56 bg-[#0a0a0a] text-white my-2 mx-3 items-center justify-evenly rounded-lg hover:scale-105 p-1 duration-300 dark:bg-gray-200 dark:text-black">
+                    <div className="w-56 bg-[#0a0a0a] my-2 mx-3 items-center justify-evenly rounded-lg hover:scale-105 p-1 duration-300 dark:bg-gray-200">
                         <div className=' bg-cover'>
                             <img src={project2} alt="developersImage" className='w-full h-[150px]'/>
                         </div>
