@@ -26,10 +26,10 @@ const Home = () => {
                 />
             </h1>
             <div className="flex flex-row gap-3 mt-2">
-                <a href={linkedIn}>
+                <a href={linkedIn} target="_blank">
                     <button className="bg-[#91E0EE] dark:text-[#ECEEEF] dark:bg-[#087E96] text-[rgb(31,31,31)] p-1 rounded-md font-semibold hover:bg-opacity-40">Contact Me</button>
                 </a>
-                <a href={Resume}>
+                <a href={Resume} target="_blank">
                     <button className="bg-[#91E0EE] dark:text-[#ECEEEF] dark:bg-[#087E96] text-[rgb(31,31,31)] p-1 rounded-md font-semibold hover:bg-opacity-40">Resume</button>
                 </a>
             </div>

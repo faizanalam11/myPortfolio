@@ -7,9 +7,9 @@ const Projects = () => {
             <div className="mt-3">
                     <p className="flex justify-center items-center font-bold text-[#91E0EE] dark:text-[#087E96] text-xl font-titleFont">Projects</p>
                 </div>
-            <div className='w-5/6 flex flex-wrap justify-evenly items-center mx-auto'>
-                <a href="https://github.com/faizanalam11/helloReact">
-                    <div className="w-56 bg-[#0a0a0a] my-2 mx-3 items-center justify-evenly rounded-lg hover:scale-105 p-1 duration-300 dark:bg-gray-200">
+            <div className='w-5/6 flex flex-wrap justify-evenly items-center m-auto'>
+                <a href="https://github.com/faizanalam11/helloReact" target="_blank">
+                    <div className="styleProjects">
                         <div className=' bg-cover'>
                             <img src={project1} alt="developersImage" className='w-full h-[150px]'/>
                         </div>
@@ -26,8 +26,8 @@ const Projects = () => {
                     </div>
                 </a>
 
-                <a href="https://github.com/faizanalam11/newsWebsite">
-                    <div className="w-56 bg-[#0a0a0a] my-2 mx-3 items-center justify-evenly rounded-lg hover:scale-105 p-1 duration-300 dark:bg-gray-200">
+                <a href="https://github.com/faizanalam11/newsWebsite" target="_blank">
+                    <div className="styleProjects">
                         <div className=' bg-cover'>
                             <img src={project2} alt="developersImage" className='w-full h-[150px]'/>
                         </div>

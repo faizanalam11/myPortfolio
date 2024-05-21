@@ -10,22 +10,22 @@ const Links = () => {
                 <p className="font-bold text-[#91E0EE] dark:text-[#087E96] text-xl font-titleFont">Links</p>
             </div>
             <div className="flex flex-wrap justify-evenly">
-                <a href="https://www.instagram.com/_faizan.alam/?hl=en">
+                <a href="https://www.instagram.com/_faizan.alam/?hl=en" target="_blank">
                     <span className="skillsIcon">
                         <BsInstagram/>
                     </span>
                 </a>
-                <a href="https://www.linkedin.com/in/faizanalam123/">
+                <a href="https://www.linkedin.com/in/faizanalam123/" target="_blank">
                     <span className="skillsIcon"> 
                         <BsLinkedin/>
                     </span>
                 </a>
-                <a href="https://github.com/faizanalam11">
+                <a href="https://github.com/faizanalam11" target="_blank">
                     <span className="skillsIcon"> 
                         <BsGithub/>
                     </span>
                 </a>
-                <a href="https://leetcode.com/u/faizanalam416/">
+                <a href="https://leetcode.com/u/faizanalam416/" target="_blank">
                     <span className="skillsIcon"> 
                         <SiLeetcode/>
                     </span>
