@@ -9,7 +9,7 @@ const Projects = () => {
                 </div>
             <div className='w-5/6 flex flex-wrap justify-evenly items-center m-auto'>
                 <a href="https://github.com/faizanalam11/helloReact" target="_blank">
-                    <div className="styleProjects">
+                    <div className="styleProjects border border-1 border-[#4f4f58] dark:border-none">
                         <div className=' bg-cover'>
                             <img src={project1} alt="developersImage" className='w-full h-[150px]'/>
                         </div>
@@ -27,7 +27,7 @@ const Projects = () => {
                 </a>
 
                 <a href="https://github.com/faizanalam11/newsWebsite" target="_blank">
-                    <div className="styleProjects">
+                    <div className="styleProjects border border-1 border-[#4f4f58] dark:border-none">
                         <div className=' bg-cover'>
                             <img src={project2} alt="developersImage" className='w-full h-[150px]'/>
                         </div>

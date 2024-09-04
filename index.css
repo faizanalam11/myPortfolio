@@ -8,7 +8,7 @@
     }
 
     .styleProjects{
-        @apply w-56 bg-[#0a0a0a] bg-opacity-25 shadow-shadowOne my-2 mx-3 items-center justify-evenly rounded-lg hover:bg-opacity-40 hover:-translate-y-1 transition-all  hover:text-[#91E0EE] p-1 duration-300 dark:bg-gray-200 dark:shadow-none dark:hover:text-[#087e96]
+        @apply w-64 bg-[#0a0a0a] bg-opacity-25 shadow-shadowOne my-2 mx-3 items-center justify-evenly rounded-lg hover:bg-opacity-40 hover:-translate-y-1 transition-all  hover:text-[#91E0EE] p-1 duration-300 dark:bg-gray-200 dark:shadow-none dark:hover:text-[#087e96]
     }
 
     .techStack{
