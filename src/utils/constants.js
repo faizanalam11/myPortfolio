@@ -1,6 +1,6 @@
 export const linkedIn = "https://www.linkedin.com/in/faizanalam123/";
 
-export const Resume = "https://drive.google.com/file/d/1g3F7FI5blo-y6DuBjruX3kvAWRAl3z5z/view?usp=drive_link";
+export const Resume = "https://drive.google.com/file/d/1_193vF2-Vi6ybXyy5Rkgugnrb9prr__S/view?usp=sharing";
 
 export const navLinks = [
     {
