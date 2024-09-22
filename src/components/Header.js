@@ -12,7 +12,7 @@ const Header = ({ theme, setTheme }) => {
 
     return (
         <div className="bg-[rgb(31,31,31)] sticky top-0 border-b-2 z-50 flex border-black justify-center items-center mx-1 mb-1 p-2 dark:bg-[#DDDDDD] dark:border-[#E1F7F5] duration-300 ">
-    <div className=" flex flex-col md:flex-row justify-between items-center font-titleFont w-11/12">
+    <div className=" flex flex-col md:flex-row justify-between items-center font-poppins w-11/12">
         <div>
             <div className="text-yellow-800 p-1 my-1">
                 <h1 className="font-bold text-[#91E0EE] dark:text-[#087E96] xl:text-2xl lg:text-xl md:text-lg text-base font-serif">Faizan Alam</h1>
