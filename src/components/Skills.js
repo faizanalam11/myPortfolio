@@ -1,5 +1,7 @@
 import { FaReact, FaNodeJs, FaHtml5 } from "react-icons/fa";
 import { SiJavascript, SiTailwindcss } from "react-icons/si";
+import { DiMsqlServer } from "react-icons/di";
+import { TbBrandCpp } from "react-icons/tb";
 
 const Skills = () => {
     return (
@@ -9,8 +11,8 @@ const Skills = () => {
             </div>
             <div className="w-5/6 m-auto flex">
             <div className="flex flex-wrap justify-evenly">
-                <span className="skillsIcon"> 
-                    <p>C++</p>
+                <span className="skillsIcon text-2xl"> 
+                    <TbBrandCpp/>
                 </span>
                 <span className="skillsIcon"> 
                     <FaHtml5/>
@@ -27,8 +29,8 @@ const Skills = () => {
                 <span className="skillsIcon"> 
                     <FaNodeJs/>
                 </span>
-                <span className="skillsIcon">
-                    <p>SQL</p>
+                <span className="skillsIcon text-4xl">
+                    <DiMsqlServer/>
                 </span>
                 <span className="skillsIcon">
                     <p>DSA</p>
