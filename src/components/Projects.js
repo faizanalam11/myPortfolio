@@ -7,7 +7,7 @@ const Projects = () => {
             <div className="mt-3">
                     <p className="flex justify-center items-center font-bold text-[#91E0EE] dark:text-[#087E96] text-xl font-titleFont">Projects</p>
                 </div>
-            <div className='w-5/6 flex flex-wrap justify-evenly items-center m-auto'>
+            <div className='w-5/6 flex flex-wrap justify-evenly items-center m-auto gap-1'>
                 <a href="https://github.com/faizanalam11/helloReact" target="_blank">
                     <div className="styleProjects border border-1 border-[#4f4f58] dark:border-none">
                         <div className=' bg-cover'>
