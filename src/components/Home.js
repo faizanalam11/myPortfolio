@@ -16,7 +16,7 @@ const Home = () => {
     return (
     <section id="home" className="flex text-[#ECEEEF] bg-[rgb(31,31,31)] px-2 py-1 m-1 justify-center items-center h-screen dark:bg-[#DDDDDD] duration-300 dark:text-[rgb(31,31,31)]">
         <div className="flex flex-col sm:flex-row sm:justify-around w-5/6 justify-center m-auto font-poppins">
-            <div className="flex flex-col gap-3 sm:w-2/3 w-full order-2 sm:order-2 justify-center m-auto sm:m-0">
+            <div className="flex flex-col gap-5 sm:w-2/3 w-full order-2 sm:order-2 justify-center m-auto sm:m-0">
                 <p className="font-bold xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base text-center sm:text-left">I AM FAIZAN ALAM</p>
                 <h1 className="font-bold xl:text-6xl lg:text-5xl md:text-4xl sm:text-3xl text-2xl text-center sm:text-left"> <span className="">a</span> {" "}
                     <span className="text-[#91E0EE] dark:text-[#087E96]">{text}</span>
@@ -36,7 +36,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="sm:w-1/3 w-full flex justify-center items-center order-1 sm:order-2 m-auto p-1">
-                <img src={myImage} alt="developersImage" className="w-10/12 rounded-full"/>
+                <img src={myImage} alt="developersImage" className="w-9/12 rounded-full"/>
             </div>
         </div>
     </section>
