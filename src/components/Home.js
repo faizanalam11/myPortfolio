@@ -14,7 +14,7 @@ const Home = () => {
         delaySpeed: 2000,
       })
     return (
-    <section id="home" className="flex text-[#ECEEEF] bg-[rgb(31,31,31)] px-2 py-1 m-1 justify-center items-center min-h-60 dark:bg-[#DDDDDD] duration-300 dark:text-[rgb(31,31,31)]">
+    <section id="home" className="flex text-[#ECEEEF] bg-[rgb(31,31,31)] px-2 py-1 m-1 justify-center items-center h-screen dark:bg-[#DDDDDD] duration-300 dark:text-[rgb(31,31,31)]">
         <div className="flex flex-col sm:flex-row sm:justify-around w-5/6 justify-center m-auto font-poppins">
             <div className="flex flex-col gap-3 sm:w-2/3 w-full order-2 sm:order-2 justify-center m-auto sm:m-0">
                 <p className="font-bold xl:text-3xl lg:text-2xl md:text-xl sm:text-lg text-base text-center sm:text-left">I AM FAIZAN ALAM</p>
@@ -36,7 +36,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="sm:w-1/3 w-full flex justify-center items-center order-1 sm:order-2 m-auto p-1">
-                <img src={myImage} alt="developersImage" className="xl:h-44 lg:h-40 md:h-36 sm:h-32 h-28 rounded-full"/>
+                <img src={myImage} alt="developersImage" className="w-10/12 rounded-full"/>
             </div>
         </div>
     </section>
